@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+  
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(30, 114, 5);
+  }
+  
+  .container {
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    height: 100vh;
+    width: 100%;
+  
+  }
+  
+  #myCanvas {
+    background-color: #88880d;
+
+         display: Block;
+         align-items: center;
+         justify-content: center;
+    
+  }
+  
+  #gameoverscreen {
+    display: none;
+  }
+  
+  #gameoverscreen {
+    position: absolute;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
+    text-align: center;
+  
+    background-color: brown;
+  
+    width: 300px;
+  
+    height: 200px;
+  }
+  
+  #restart {
+    color: white;
+    position:absolute;
+  
+    background-color: rgb(14, 12, 12);
+    width: 100px;
+  
+    height: 25px;
+  
+    font-size: 12px;
+    margin-top: 30px;
+   
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%); 
+  
+    text-align: center;
+  }
+  
+  #gameovertext {
+    font-size: 45px;
+  
+    font-family: "Young serif";
+  }
+  #gameState {
+    font-size: 30px;
+  
+    font-family: "Young serif";
+  }
+  
+  @media only screen and (max-width: 820px  ) and (max-height:1180px) {
+    #myCanvas {
+      
+        background-color: palevioletred;
+        width: 760px;
+        height: 900px;
+       
+    }
+   
+  }
+  
+  @media only screen and (max-width: 360px  ) and (max-height:740px) {
+    #myCanvas {
+      
+        background-color: palevioletred;
+        width: 300px;
+        height: 540px;
+       
+    }
+    #gameoverscreen {
+      
+      width: 150px;
+    
+      height: 100px;
+    }
+    #gameovertext {
+    font-size:30px;
+  
+    font-family: "Young serif";
+  }
+  #gameState {
+    font-size: 15px;
+  
+    font-family: "Young serif";
+  }
+   
+  }
+  
